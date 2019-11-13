@@ -485,6 +485,11 @@ input[type='range'].vslide2::-webkit-slider-thumb {background:#fff;background-im
 .updater-relnotes {list-style-type:none;margin-left:0;}
 /* Show/hide password plaintext */
 .show-hide-password {font-size:18px;margin-left:.5em}
+/* innie vol btns modified for 6.4 code base, was top:50%, width:56%)*/
+#volbtns {display:flex;margin:0;position:absolute;transform:translate(-50%,-50%);top:50%;left:50%;width:12.5em;height:2.1em;}
+#volumedn {font-size:1.5em;font-weight:400;position:relative;float:left;left:7.5%;margin:0;width:30%;padding:0;}
+#volumeup {font-size:1.5em;font-weight:400;position:relative;float:right;right:7.5%;margin:0;width:30%;padding:0;}
+.volume-display {position:relative;transform:none;width:40%;top:unset;left:unset;}
 
 /* https: //codepen.io/mallendeo/pen/eLIiG */
 .toggle {background-color:rgba(128,128,128,0.3);}
